@@ -1,23 +1,24 @@
 import { useEffect, useState } from "react"
 import fakeRecipes from "../API/recipes-example.json"
 
-const url = 'https://tasty.p.rapidapi.com/recipes/list';
 const options = {
-	method: 'GET',
+  method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
+    'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
 		'X-RapidAPI-Host': import.meta.env.VITE_API_HOST
 	}
 };
 
-export const useRecipes = (realData: boolean = false) => {
+export const useRecipes = (from: number = 0, ingredients:string = "", realData: boolean = false) => {
   const [recipes, setRecipes] = useState(fakeRecipes);
   const [error, setError] = useState<Error|null>(null);
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
+    const url = `https://tasty.p.rapidapi.com/recipes/list?from=${from}&size=20&q=${ingredients}`;
     const getRecipes = async () => {
       if (!realData) {
+        console.log(`FakeFetch URL: ${url}`)
         setLoading(false);
         return;
       }
@@ -37,7 +38,7 @@ export const useRecipes = (realData: boolean = false) => {
     };
 
     getRecipes();
-  }, [realData]);
+  }, [from, ingredients, realData]);
 
   return { recipes, error, loading };
 };

@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import './App.css'
 import { RecipeCard } from './components/RecipeCard';
 import { useRecipes } from './hooks/useRecipes'
 
 function App() {
-  const { recipes, error, loading } = useRecipes()
+  const [ingredients, setIngredients] = useState("");
+  const [page, setPage] = useState(0)
+  const { recipes, error, loading } = useRecipes(page * 20, ingredients)
+  const [searchValue, setSearchValue] = useState("");
 
   if (error) {
     console.log(error);
@@ -13,8 +17,14 @@ function App() {
     console.log("Loading...");
   }
 
-  if (recipes) {
-    console.log(recipes);
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchValue(e.target.value)
+  }
+
+  const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    if (e.key !== "Enter") return;
+    setIngredients(searchValue.replace(/ /g, "%20"));
   }
 
   return (
@@ -27,11 +37,10 @@ function App() {
         <p>Search for a recipe based on ingredients</p> 
       </header>
       <main>
-        <input type="search" name="ingredients" id="ingredients" placeholder="ingredients" />
-        <button type="submit">Search</button>
+        <input type="search" onChange={handleChange} onKeyUp={handleSearch} name="ingredients" id="ingredients" placeholder="eggs ham cheese" value={searchValue} />
         <div className="recipes">
           {recipes.results.map(recipe => (
-            <RecipeCard url={recipe.thumbnail_url} name={recipe.name} />
+            <RecipeCard key={recipe.canonical_id} url={recipe.thumbnail_url} name={recipe.name} />
           ))}
         </div>
       </main>
