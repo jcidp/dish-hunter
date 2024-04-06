@@ -1,6 +1,21 @@
 import './App.css'
+import { useRecipes } from './hooks/useRecipes'
 
 function App() {
+  const { recipes, error, loading } = useRecipes()
+
+  if (error) {
+    console.log(error);
+  }
+
+  if (loading) {
+    console.log("Loading...");
+  }
+
+  if (recipes) {
+    console.log(recipes);
+  }
+
   return (
     <>
       <nav>
@@ -18,4 +33,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
