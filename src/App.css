@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgrey;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+header {
+  text-align: center;
+
+  h1 {
+    margin: 1rem 0;
+  }
+}
+
+main {
+  text-align: center;
+}
