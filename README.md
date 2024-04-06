@@ -1,30 +1,72 @@
-# React + TypeScript + Vite
+# Dish Hunter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+* [Overview](#overview)
+* [Features](#features)
+* [Acknowledgements](#acknowledgements)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+Ingredients and recipes are fundamental components of the culinary world, 
+working together to create a wide array of dishes and flavors. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ingredients are the raw materials used in cooking and food preparation while 
+Recipes are sets of instructions that outline how to prepare a specific dish.
 
-- Configure the top-level `parserOptions` property like this:
+They detail the ingredients, their quantities, and a step-by-step process to 
+create the desired culinary outcome.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### Functionality
+
+-   User can see a landing page containing at least the following components:
+    - [ ] Header component displaying a welcome message.
+    - [ ] Search field that enables users to input ingredient(s).
+    - [ ] A component to explain the use of the application.
+    - [ ] A scrollable list of recipes displaying the results based on the search criteria. Keep in mind that the Recipe API has over 1500 Recipes, however, it's paginated with 20 recipes per page of result.
+    - [ ] A summary main recipe component: it should display recipe image, name and link to details.
+    - [ ] A summary detail recipe component: it should display recipe name, category, and instructions.
+    - [ ] Ensure mobile responsiveness for the application.
+
+- Search Component
+    - [ ] Users can input one or multiple ingredient(s).
+    - [ ] Initiate the search by either pressing the Enter key or clicking the 'Search' button/icon.
+    - [ ] Display an error message when an unlisted item is entered.
+
+- Main Data Display Component
+    - [ ] Display result for each recipe in the main component.
+    - [ ] Remain on the landing page if no search ingredient has been entered.
+
+- Summary Detail Component
+    - [ ] Display the following information of the selected recipe:
+        - Name
+        - Category
+        - List of instruction
+        - List of nutrition
+    - [ ] Add a Link to the instruction video
+    
+### Extras (Not Required)
+
+-   Search Component
+    - [ ] Enable the preservation of search criteria between sessions, allowing users to select them from a dropdown menu when needed.
+-   Detail Data Display Component
+    - [ ] List of ingredient
+-   Summary Metrics Component
+    - [ ] Incorporate pagination for organizing the collection of recipe search results.
+-   General
+    - [ ] Support dark/light mode
+    - [ ] Allow the user options for customizing the font and font size
+
+## Acknowledgements
+
+This project was defined by [Chingu](https://github.com/chingu-voyages/voyage-project-tier2-recipes/tree/main).
+
+Data is been pulled from [Tasty of Rapid API](https://rapidapi.com/apidojo/api/tasty). 
+
+## About Chingu
+
+If you aren’t yet a member of Chingu we invite you to join us. We help our 
+members transform what they’ve learned in courses & tutorials into the 
+practical experience employers need and want.
