@@ -1,0 +1,790 @@
+{
+  "approved_at": 1520943531,
+  "aspect_ratio": "1:1",
+  "beauty_url": null,
+  "brand": null,
+  "brand_id": null,
+  "buzz_id": 4772289,
+  "canonical_id": "recipe:3591",
+  "compilations": [
+    {
+      "approved_at": 1520943831,
+      "aspect_ratio": "1:1",
+      "beauty_url": "https://img.buzzfeed.com/video-api-prod/assets/78f4914459294d62a985bdf4c7cb09c3/BFV39535_EggBurritos_BeautyShot.jpg",
+      "buzz_id": 4772296,
+      "canonical_id": "compilation:503",
+      "country": "US",
+      "created_at": 1520576085,
+      "description": null,
+      "draft_status": "published",
+      "facebook_posts": [],
+      "id": 503,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "Inside-Out Breakfast Burritos",
+      "promotion": "full",
+      "show": [
+        {
+          "id": 17,
+          "name": "Tasty"
+        }
+      ],
+      "slug": "inside-out-breakfast-burritos",
+      "thumbnail_alt_text": "",
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/5c597e0592f74800bc4616c621a4df80/BFV39535_EggBurritos_FB1080SQ.jpg",
+      "video_id": 49349,
+      "video_url": "https://vid.tasty.co/output/83856/hls24_1520632254.m3u8"
+    },
+    {
+      "approved_at": 1522078810,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "canonical_id": "compilation:518",
+      "country": "US",
+      "created_at": 1521841686,
+      "description": "If you’re watching your carb intake, breakfast can be a tricky meal. Thankfully, we have easy and delicious low-carb breakfast ideas for you! You can prep some ahead, like these <a href=\"https://tasty.co/recipe/sausage-egg-breakfast-cups\">sausage and egg cups</a>, for a grab-and-go option. But if you have 20 extra minutes in the morning and want to treat yourself, try these <a href=\"https://tasty.co/recipe/baked-avocado-eggs\">baked avocado eggs</a>. They’re super easy and you can have fun with the toppings and try whatever you have on hand in your kitchen.",
+      "draft_status": "published",
+      "facebook_posts": [],
+      "id": 518,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "5 Low-Carb Breakfasts",
+      "promotion": "full",
+      "show": [
+        {
+          "id": 34,
+          "name": "Goodful"
+        }
+      ],
+      "slug": "5-low-carb-breakfasts",
+      "thumbnail_alt_text": "",
+      "thumbnail_url": "https://img.buzzfeed.com/video-api-prod/assets/9937f55855a344d6a2ac137b94c75c27/LowCarbBreakfastsFB.jpg",
+      "video_id": 51169,
+      "video_url": "https://vid.tasty.co/output/85850/hls24_1521667744.m3u8"
+    },
+    {
+      "approved_at": 1542658572,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "canonical_id": "compilation:696",
+      "country": "US",
+      "created_at": 1540404054,
+      "description": null,
+      "draft_status": "published",
+      "facebook_posts": [],
+      "id": 696,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "7 Creative Ways To Use Eggs",
+      "promotion": "full",
+      "show": [
+        {
+          "id": 17,
+          "name": "Tasty"
+        }
+      ],
+      "slug": "7-creative-ways-to-use-eggs",
+      "thumbnail_alt_text": "",
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/185124.jpg",
+      "video_id": 71371,
+      "video_url": "https://vid.tasty.co/output/149284/hls24_1571781718.m3u8"
+    },
+    {
+      "approved_at": 1576793206,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "canonical_id": "compilation:1330",
+      "country": "US",
+      "created_at": 1576465442,
+      "description": null,
+      "draft_status": "published",
+      "facebook_posts": [],
+      "id": 1330,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "12 Amazing Ways To Cook Your Eggs",
+      "promotion": "full",
+      "show": [
+        {
+          "id": 17,
+          "name": "Tasty"
+        }
+      ],
+      "slug": "12-amazing-ways-to-cook-your-eggs",
+      "thumbnail_alt_text": "",
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/fda823d06891426d9f0cd73aa47db8f5/EGGFB.jpg",
+      "video_id": 96630,
+      "video_url": "https://vid.tasty.co/output/154960/hls24_1576222059.m3u8"
+    },
+    {
+      "approved_at": 1609257204,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "canonical_id": "compilation:2009",
+      "country": "US",
+      "created_at": 1608800203,
+      "description": "Looking for a fresh start in 2021? We've got just the perfect recommendation to kickstart the new year! From french toasts, pancakes, cobblers, smoothies, avocado toasts, waffles and even this epic <a href=\"https://tasty.co/recipe/mini-donut-cereal\">mini donut cereal bowl,</a> here's an assortment of our top breakfast recipes. Cheers to a Tasty New Year! ",
+      "draft_status": "published",
+      "facebook_posts": [],
+      "id": 2009,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "Top Breakfasts of 2020!",
+      "promotion": "full",
+      "show": [
+        {
+          "id": 17,
+          "name": "Tasty"
+        }
+      ],
+      "slug": "top-breakfasts-of-2020",
+      "thumbnail_alt_text": "",
+      "thumbnail_url": "https://s3.amazonaws.com/video-api-prod/assets/df868ffa23a14d33a06632b35ae3cae6/FBThumbapproved.jpg",
+      "video_id": 121402,
+      "video_url": "https://vid.tasty.co/output/189658/hls24_1608823457.m3u8"
+    }
+  ],
+  "cook_time_minutes": null,
+  "country": "US",
+  "created_at": 1520576180,
+  "credits": [
+    {
+      "name": "Claire Nolan",
+      "type": "internal"
+    }
+  ],
+  "description": "Spice up your breakfast game with this hearty burrito filled with fluffy scrambled eggs, ham, cheddar cheese, and wrapped in a warm tortilla.",
+  "draft_status": "published",
+  "facebook_posts": [],
+  "id": 3591,
+  "inspired_by_url": "https://mylifecookbook.com/freezable-low-carb-breakfast-burritos-grain-free-nut-free/",
+  "instructions": [
+    {
+      "appliance": null,
+      "display_text": "In a medium size bowl, whisk the eggs, salt, and Parmesan until well combined.",
+      "end_time": 13666,
+      "id": 30863,
+      "position": 1,
+      "start_time": 6000,
+      "temperature": null
+    },
+    {
+      "appliance": null,
+      "display_text": "In a medium size saucepan over medium-high heat, melt the butter and pour the egg mixture into the pan. Let the egg cook just until it starts to set, then add the ham, scallions, and cheddar cheese in the center of the egg wrap.",
+      "end_time": 75333,
+      "id": 30864,
+      "position": 2,
+      "start_time": 67000,
+      "temperature": null
+    },
+    {
+      "appliance": null,
+      "display_text": "Cover with a lid and cook for another 3 minutes, or until the egg is fully cooked through and the cheese is melted.",
+      "end_time": 0,
+      "id": 30865,
+      "position": 3,
+      "start_time": 0,
+      "temperature": null
+    },
+    {
+      "appliance": null,
+      "display_text": "Remove from the pan and fold in the egg wrap’s left and right sides, then roll from the bottom to the top to form a burrito.",
+      "end_time": 86333,
+      "id": 30866,
+      "position": 4,
+      "start_time": 81000,
+      "temperature": null
+    },
+    {
+      "appliance": null,
+      "display_text": "Enjoy!",
+      "end_time": 89500,
+      "id": 30867,
+      "position": 5,
+      "start_time": 88000,
+      "temperature": null
+    }
+  ],
+  "is_app_only": false,
+  "is_one_top": false,
+  "is_shoppable": true,
+  "is_subscriber_content": false,
+  "keywords": null,
+  "language": "eng",
+  "name": "Ham & Cheddar Wrapped Breakfast Burrito",
+  "num_servings": 1,
+  "nutrition": {
+    "calories": 376,
+    "carbohydrates": 4,
+    "fat": 28,
+    "fiber": 0,
+    "protein": 25,
+    "sugar": 1,
+    "updated_at": "2022-10-02T08:07:47+02:00"
+  },
+  "nutrition_visibility": "auto",
+  "original_video_url": "https://s3.amazonaws.com/video-api-prod/assets/70a436b677654e88b8d82450318ceebc/BFV39535_EggBurritos_FB1080SQ.mp4",
+  "prep_time_minutes": null,
+  "price": {
+    "consumption_portion": 100,
+    "consumption_total": 100,
+    "portion": 1100,
+    "total": 1100,
+    "updated_at": "2024-04-06T07:05:27+02:00"
+  },
+  "promotion": "full",
+  "renditions": [
+    {
+      "aspect": "square",
+      "bit_rate": 2396,
+      "container": "mp4",
+      "content_type": "video/mp4",
+      "duration": 104815,
+      "file_size": 31386277,
+      "height": 720,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "name": "mp4_720x720",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/83856/square_720/1520632254_00001.png",
+      "url": "https://vid.tasty.co/output/83856/square_720/1520632254",
+      "width": 720
+    },
+    {
+      "aspect": "square",
+      "bit_rate": 783,
+      "container": "mp4",
+      "content_type": "video/mp4",
+      "duration": 104815,
+      "file_size": 10256516,
+      "height": 320,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "name": "mp4_320x320",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/83856/square_320/1520632254_00001.png",
+      "url": "https://vid.tasty.co/output/83856/square_320/1520632254",
+      "width": 320
+    },
+    {
+      "aspect": "square",
+      "bit_rate": 2395,
+      "container": "mp4",
+      "content_type": "video/mp4",
+      "duration": 104815,
+      "file_size": 31369782,
+      "height": 720,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "name": "mp4_720x720",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/83856/landscape_720/1520632254_00001.png",
+      "url": "https://vid.tasty.co/output/83856/landscape_720/1520632254",
+      "width": 720
+    },
+    {
+      "aspect": "square",
+      "bit_rate": 1351,
+      "container": "mp4",
+      "content_type": "video/mp4",
+      "duration": 104815,
+      "file_size": 17695807,
+      "height": 480,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "name": "mp4_480x480",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/83856/landscape_480/1520632254_00001.png",
+      "url": "https://vid.tasty.co/output/83856/landscape_480/1520632254",
+      "width": 480
+    },
+    {
+      "aspect": "square",
+      "bit_rate": null,
+      "container": "ts",
+      "content_type": "application/vnd.apple.mpegurl",
+      "duration": 104772,
+      "file_size": null,
+      "height": 1080,
+      "maximum_bit_rate": 4428,
+      "minimum_bit_rate": 271,
+      "name": "low",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/83856/1445289064805-h2exzu/1520632254_00001.png",
+      "url": "https://vid.tasty.co/output/83856/hls24_1520632254.m3u8",
+      "width": 1080
+    }
+  ],
+  "sections": [
+    {
+      "components": [
+        {
+          "extra_comment": "",
+          "id": 35324,
+          "ingredient": {
+            "created_at": 1493314622,
+            "display_plural": "eggs",
+            "display_singular": "egg",
+            "id": 19,
+            "name": "egg",
+            "updated_at": 1509035288
+          },
+          "measurements": [
+            {
+              "id": 544429,
+              "quantity": "2",
+              "unit": {
+                "abbreviation": "",
+                "display_plural": "",
+                "display_singular": "",
+                "name": "",
+                "system": "none"
+              }
+            }
+          ],
+          "position": 1,
+          "raw_text": "2 eggs"
+        },
+        {
+          "extra_comment": "to taste",
+          "id": 35325,
+          "ingredient": {
+            "created_at": 1493314644,
+            "display_plural": "salts",
+            "display_singular": "salt",
+            "id": 22,
+            "name": "salt",
+            "updated_at": 1509035288
+          },
+          "measurements": [
+            {
+              "id": 544428,
+              "quantity": "0",
+              "unit": {
+                "abbreviation": "",
+                "display_plural": "",
+                "display_singular": "",
+                "name": "",
+                "system": "none"
+              }
+            }
+          ],
+          "position": 2,
+          "raw_text": "Salt, to taste"
+        },
+        {
+          "extra_comment": "",
+          "id": 35326,
+          "ingredient": {
+            "created_at": 1494880013,
+            "display_plural": "shredded parmesan cheeses",
+            "display_singular": "shredded parmesan cheese",
+            "id": 334,
+            "name": "shredded parmesan cheese",
+            "updated_at": 1509035269
+          },
+          "measurements": [
+            {
+              "id": 544430,
+              "quantity": "1",
+              "unit": {
+                "abbreviation": "tbsp",
+                "display_plural": "tablespoons",
+                "display_singular": "tablespoon",
+                "name": "tablespoon",
+                "system": "imperial"
+              }
+            }
+          ],
+          "position": 3,
+          "raw_text": "1 tablespoon shredded Parmesan cheese"
+        },
+        {
+          "extra_comment": "",
+          "id": 35327,
+          "ingredient": {
+            "created_at": 1493314940,
+            "display_plural": "butters",
+            "display_singular": "butter",
+            "id": 30,
+            "name": "butter",
+            "updated_at": 1509035287
+          },
+          "measurements": [
+            {
+              "id": 544434,
+              "quantity": "½",
+              "unit": {
+                "abbreviation": "tbsp",
+                "display_plural": "tablespoons",
+                "display_singular": "tablespoon",
+                "name": "tablespoon",
+                "system": "imperial"
+              }
+            }
+          ],
+          "position": 4,
+          "raw_text": "½ tablespoon butter"
+        },
+        {
+          "extra_comment": "",
+          "id": 35328,
+          "ingredient": {
+            "created_at": 1494210028,
+            "display_plural": "hams",
+            "display_singular": "ham",
+            "id": 205,
+            "name": "ham",
+            "updated_at": 1509035279
+          },
+          "measurements": [
+            {
+              "id": 544435,
+              "quantity": "3",
+              "unit": {
+                "abbreviation": "slice",
+                "display_plural": "slices",
+                "display_singular": "slice",
+                "name": "slice",
+                "system": "none"
+              }
+            }
+          ],
+          "position": 5,
+          "raw_text": "3 slices deli ham"
+        },
+        {
+          "extra_comment": "sliced",
+          "id": 35329,
+          "ingredient": {
+            "created_at": 1496083563,
+            "display_plural": "scallions",
+            "display_singular": "scallion",
+            "id": 928,
+            "name": "scallion",
+            "updated_at": 1509035221
+          },
+          "measurements": [
+            {
+              "id": 544433,
+              "quantity": "2",
+              "unit": {
+                "abbreviation": "tbsp",
+                "display_plural": "tablespoons",
+                "display_singular": "tablespoon",
+                "name": "tablespoon",
+                "system": "imperial"
+              }
+            }
+          ],
+          "position": 6,
+          "raw_text": "2 tablespoons scallions, sliced"
+        },
+        {
+          "extra_comment": "",
+          "id": 35330,
+          "ingredient": {
+            "created_at": 1493925659,
+            "display_plural": "shredded cheddar cheeses",
+            "display_singular": "shredded cheddar cheese",
+            "id": 168,
+            "name": "shredded cheddar cheese",
+            "updated_at": 1509035282
+          },
+          "measurements": [
+            {
+              "id": 544432,
+              "quantity": "25",
+              "unit": {
+                "abbreviation": "g",
+                "display_plural": "g",
+                "display_singular": "g",
+                "name": "gram",
+                "system": "metric"
+              }
+            },
+            {
+              "id": 544431,
+              "quantity": "¼",
+              "unit": {
+                "abbreviation": "c",
+                "display_plural": "cups",
+                "display_singular": "cup",
+                "name": "cup",
+                "system": "imperial"
+              }
+            }
+          ],
+          "position": 7,
+          "raw_text": "¼ cup shredded cheddar cheese"
+        }
+      ],
+      "name": null,
+      "position": 1
+    }
+  ],
+  "seo_path": "9295813,64483,9299366",
+  "seo_title": null,
+  "servings_noun_plural": "servings",
+  "servings_noun_singular": "serving",
+  "show": {
+    "id": 17,
+    "name": "Tasty"
+  },
+  "show_id": 17,
+  "slug": "ham-cheddar-wrapped-breakfast-burrito",
+  "tags": [
+    {
+      "display_name": "North American",
+      "id": 64444,
+      "name": "north_american",
+      "root_tag_type": "cuisine",
+      "type": "cuisine"
+    },
+    {
+      "display_name": "Gluten-Free",
+      "id": 64465,
+      "name": "gluten_free",
+      "root_tag_type": "dietary",
+      "type": "dietary"
+    },
+    {
+      "display_name": "Low-Carb",
+      "id": 64467,
+      "name": "low_carb",
+      "root_tag_type": "healthy",
+      "type": "healthy"
+    },
+    {
+      "display_name": "Easy",
+      "id": 64471,
+      "name": "easy",
+      "root_tag_type": "difficulty",
+      "type": "difficulty"
+    },
+    {
+      "display_name": "Under 30 Minutes",
+      "id": 64472,
+      "name": "under_30_minutes",
+      "root_tag_type": "difficulty",
+      "type": "difficulty"
+    },
+    {
+      "display_name": "Breakfast",
+      "id": 64483,
+      "name": "breakfast",
+      "root_tag_type": "meal",
+      "type": "meal"
+    },
+    {
+      "display_name": "Brunch",
+      "id": 64484,
+      "name": "brunch",
+      "root_tag_type": "meal",
+      "type": "meal"
+    },
+    {
+      "display_name": "Kid-Friendly",
+      "id": 64488,
+      "name": "kid_friendly",
+      "root_tag_type": "cooking_style",
+      "type": "cooking_style"
+    },
+    {
+      "display_name": "Stove Top",
+      "id": 65848,
+      "name": "stove_top",
+      "root_tag_type": "appliance",
+      "type": "appliance"
+    },
+    {
+      "display_name": "Meal Prep",
+      "id": 65853,
+      "name": "meal_prep",
+      "root_tag_type": "cooking_style",
+      "type": "cooking_style"
+    },
+    {
+      "display_name": "One-Pot or Pan",
+      "id": 65855,
+      "name": "one_pot_or_pan",
+      "root_tag_type": "cooking_style",
+      "type": "cooking_style"
+    },
+    {
+      "display_name": "Pan Fry",
+      "id": 65859,
+      "name": "pan_fry",
+      "root_tag_type": "cooking_style",
+      "type": "cooking_style"
+    },
+    {
+      "display_name": "Pyrex",
+      "id": 1247785,
+      "name": "pyrex",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Saute Pan",
+      "id": 1247787,
+      "name": "saute_pan",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Spatula",
+      "id": 1247788,
+      "name": "spatula",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Whisk",
+      "id": 1247793,
+      "name": "whisk",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Chef's Knife",
+      "id": 1280501,
+      "name": "chefs_knife",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Cutting Board",
+      "id": 1280503,
+      "name": "cutting_board",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Dry Measuring Cups",
+      "id": 1280507,
+      "name": "dry_measuring_cups",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Mixing Bowl",
+      "id": 1280510,
+      "name": "mixing_bowl",
+      "root_tag_type": "equipment",
+      "type": "equipment"
+    },
+    {
+      "display_name": "Quarantine Cooking: Recipe",
+      "id": 5812430,
+      "name": "qfp_recipes",
+      "root_tag_type": "feature_page",
+      "type": "feature_page"
+    },
+    {
+      "display_name": "Hershey's",
+      "id": 6361740,
+      "name": "hershey_s",
+      "root_tag_type": "feature_page",
+      "type": "feature_page"
+    },
+    {
+      "display_name": "Under 15 Minutes",
+      "id": 8091744,
+      "name": "under_15_minutes",
+      "root_tag_type": "difficulty",
+      "type": "difficulty"
+    },
+    {
+      "display_name": "Keto",
+      "id": 8091756,
+      "name": "keto",
+      "root_tag_type": "dietary",
+      "type": "dietary"
+    },
+    {
+      "display_name": "High-Protein",
+      "id": 8091917,
+      "name": "high_protein",
+      "root_tag_type": "healthy",
+      "type": "healthy"
+    },
+    {
+      "display_name": "Low-Sugar",
+      "id": 8091918,
+      "name": "low_sugar",
+      "root_tag_type": "healthy",
+      "type": "healthy"
+    },
+    {
+      "display_name": "Egg Breakfasts",
+      "id": 9299366,
+      "name": "egg_breakfasts",
+      "root_tag_type": "meal",
+      "type": "breakfast"
+    },
+    {
+      "display_name": "Sandwiches",
+      "id": 9299494,
+      "name": "sandwiches",
+      "root_tag_type": "meal",
+      "type": "lunch"
+    }
+  ],
+  "thumbnail_alt_text": "",
+  "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/7b4e8180f6d54515af8f408adc876d26/BFV39535_EggBurritos_FB1080SQ.jpg",
+  "tips_and_ratings_enabled": true,
+  "topics": [
+    {
+      "name": "Sunday Brunch",
+      "slug": "brunch"
+    },
+    {
+      "name": "Keto",
+      "slug": "keto"
+    },
+    {
+      "name": "Kid Friendly",
+      "slug": "kid-friendly"
+    },
+    {
+      "name": "Low Carb Meals",
+      "slug": "low-carb-meals"
+    },
+    {
+      "name": "Weekend Meal Prep",
+      "slug": "meal-prep"
+    },
+    {
+      "name": "One-Pot Recipes",
+      "slug": "one-pot"
+    },
+    {
+      "name": "Breakfast",
+      "slug": "breakfast"
+    },
+    {
+      "name": "American",
+      "slug": "american"
+    }
+  ],
+  "total_time_minutes": null,
+  "total_time_tier": {
+    "display_tier": "Under 30 minutes",
+    "tier": "under_30_minutes"
+  },
+  "updated_at": 1684101600,
+  "user_ratings": {
+    "count_negative": 40,
+    "count_positive": 617,
+    "score": 0.939117199391172
+  },
+  "video_ad_content": "none",
+  "video_id": 49349,
+  "video_url": "https://vid.tasty.co/output/83856/hls24_1520632254.m3u8",
+  "yields": "Servings 1"
+}
