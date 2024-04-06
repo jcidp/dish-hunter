@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css'
-import { RecipeCard } from './components/RecipeCard';
-import { useRecipes } from './hooks/useRecipes'
+import RecipeCard from './components/RecipeCard';
+import useRecipes from './hooks/useRecipes'
 
 function App() {
   const [ingredients, setIngredients] = useState("");

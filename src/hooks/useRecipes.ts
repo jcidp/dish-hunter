@@ -9,7 +9,7 @@ const options = {
 	}
 };
 
-export const useRecipes = (from: number = 0, ingredients:string = "", realData: boolean = false) => {
+const useRecipes = (from: number = 0, ingredients:string = "", realData: boolean = false) => {
   const [recipes, setRecipes] = useState(fakeRecipes);
   const [error, setError] = useState<Error|null>(null);
   const [loading, setLoading] = useState(true);
@@ -42,3 +42,5 @@ export const useRecipes = (from: number = 0, ingredients:string = "", realData: 
 
   return { recipes, error, loading };
 };
+
+export default useRecipes;

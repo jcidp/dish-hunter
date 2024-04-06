@@ -5,11 +5,13 @@ interface RecipeCardProps {
   name: string
 }
 
-export const RecipeCard = ({url, name}: RecipeCardProps) => {
+const RecipeCard = ({url, name}: RecipeCardProps) => {
   return (
     <div className={styles.recipe}>
       <img src={url} alt={name} />
       <p>{name}</p>
     </div>
   )
-}
+};
+
+export default RecipeCard;
