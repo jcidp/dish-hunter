@@ -9,4 +9,9 @@
     object-fit: cover;
     border-radius: 0.5rem 0.5rem 0 0;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }

@@ -40,7 +40,7 @@ function App() {
         <input type="search" onChange={handleChange} onKeyUp={handleSearch} name="ingredients" id="ingredients" placeholder="eggs ham cheese" value={searchValue} />
         <div className="recipes">
           {recipes.results.map(recipe => (
-            <RecipeCard key={recipe.canonical_id} url={recipe.thumbnail_url} name={recipe.name} />
+            <RecipeCard key={recipe.canonical_id} id={recipe.canonical_id} url={recipe.thumbnail_url} name={recipe.name} />
           ))}
         </div>
       </main>
