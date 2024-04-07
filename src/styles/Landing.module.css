@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+
+  h1 {
+    margin: 1rem 0;
+  }
+}
+
+.centerText {
+  text-align: center;
+}
+
+.recipes {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}

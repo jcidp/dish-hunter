@@ -11,22 +11,7 @@ nav {
   }
 }
 
-header {
-  text-align: center;
-
-  h1 {
-    margin: 1rem 0;
-  }
-}
-
 main {
-  text-align: center;
   width: min(1200, 100% - 4rem);
   margin-inline: auto;
-}
-
-.recipes {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }

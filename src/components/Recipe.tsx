@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import useRecipeDetail from "../hooks/useRecipeDetail";
+import styles from "../styles/Recipe.module.css"
 
 interface Instruction {
   position: number;
@@ -35,13 +36,16 @@ const Recipe = () => {
 
   return (
     <>
+    <main className={styles.page}>
       <h1>{id} {recipe.name}</h1>
+      <img src={recipe.thumbnail_url} alt={recipe.name} />
       <p>Category</p>
       <p>{recipe.description}</p>
       <p>Instructions:</p>
       <ul>instructionList</ul>
       <p>Nutrition:</p>
       <ul>{nutritionList}</ul>
+    </main>
     </>
   )
 }
