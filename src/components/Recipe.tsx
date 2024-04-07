@@ -32,9 +32,10 @@ const Recipe = () => {
 
   if (loading) return <><h1>Loading...</h1></>;
 
-  const tags = recipe.tags.map(tag => <span className={styles.tag}>{tag.display_name}</span>);
+  const tags = recipe.tags.map(tag => <span className={styles.tag} key={tag.id}>{tag.display_name}</span>);
 
-  const instructionList = recipe.instructions.sort((a, b) => a.position - b.position).map(instruction => <li>{instruction.display_text}</li>);
+  const instructionList = recipe.instructions.sort((a, b) => a.position - b.position)
+    .map(instruction => <li key={instruction.position}>{instruction.display_text}</li>);
 
   const nutritionList = Object.keys(recipe.nutrition).map((key, i) =>
     key !== "updated_at" && <li key={i}>{key}: {recipe.nutrition[key as keyof NutritionKeys]}</li>);

@@ -1,5 +1,5 @@
+import { Outlet } from 'react-router-dom';
 import './App.css'
-import Landing from './components/Landing';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
       <nav>
         <a href="/">Dish Hunter</a>
       </nav>
-      <Landing />
+      <Outlet />
     </>
   )
 }
