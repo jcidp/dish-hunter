@@ -2,12 +2,14 @@ import { useState } from "react";
 import RecipeCard from "./RecipeCard"
 import useRecipes from "../hooks/useRecipes";
 import styles from "../styles/Landing.module.css"
+import { useSearchParams } from "react-router-dom";
+
+const cleanParams = (params: string) => params.replace(/%20/g, " ");
 
 const Landing = () => {
-  const [ingredients, setIngredients] = useState("");
-  const [page, setPage] = useState(0);
-  const { recipes, error, loading } = useRecipes(page * 20, ingredients);
-  const [searchValue, setSearchValue] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { recipes, error, loading } = useRecipes(0, searchParams.get("ingredients"), true);
+  const [searchValue, setSearchValue] = useState(cleanParams(searchParams.get("ingredients") ?? ""));
 
   if (error) {
     console.log(error);
@@ -24,7 +26,8 @@ const Landing = () => {
   const handleSearch = (e: React.KeyboardEvent<HTMLInputElement>) => {
     e.preventDefault();
     if (e.key !== "Enter") return;
-    setIngredients(searchValue.replace(/ /g, "%20"));
+    const params = {ingredients: searchValue.replace(/ /g, "%20")}
+    setSearchParams(params);
   }
 
   return(
@@ -34,7 +37,8 @@ const Landing = () => {
         <p>Search for a recipe based on ingredients</p> 
       </header>
       <main className={styles.centerText}>
-        <input type="search" onChange={handleChange} onKeyUp={handleSearch} name="ingredients" id="ingredients" placeholder="eggs ham cheese" value={searchValue} />
+        <input type="search" onChange={handleChange} onKeyUp={handleSearch} name="ingredients" id="ingredients"
+          placeholder="eggs ham cheese" value={searchValue} autoComplete="off" />
         <div className={styles.recipes}>
           {recipes.results.map(recipe => (
             <RecipeCard key={recipe.canonical_id} id={recipe.canonical_id} url={recipe.thumbnail_url} name={recipe.name} />

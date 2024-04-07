@@ -2,18 +2,6 @@ import { useParams } from "react-router-dom"
 import useRecipeDetail from "../hooks/useRecipeDetail";
 import styles from "../styles/Recipe.module.css"
 
-interface Instruction {
-  position: number;
-  display_text: string;
-}
-
-interface RecipeProps {
-  name: string,
-  description: string,
-  nutrition: {[element: string]: string},
-  instructions: Instruction[],
-}
-
 interface NutritionKeys {
   calories: number;
   carbohydrates: number;
@@ -26,7 +14,7 @@ interface NutritionKeys {
 
 const Recipe = () => {
   const { id } = useParams();
-  const { recipe, error, loading } = useRecipeDetail(Number(id));
+  const { recipe, error, loading } = useRecipeDetail(Number(id), true);
 
   if (error) return <><h1>Error fetching recipe :/</h1><p>Please try again later.</p></>;
 
