@@ -32,19 +32,34 @@ const Recipe = () => {
 
   if (loading) return <><h1>Loading...</h1></>;
 
-  const nutritionList = Object.keys(recipe.nutrition).map((key, i) => <li key={i}>{key}: {recipe.nutrition[key as keyof NutritionKeys]}</li>)
+  const tags = recipe.tags.map(tag => <span className={styles.tag}>{tag.display_name}</span>);
+
+  const instructionList = recipe.instructions.sort((a, b) => a.position - b.position).map(instruction => <li>{instruction.display_text}</li>);
+
+  const nutritionList = Object.keys(recipe.nutrition).map((key, i) =>
+    key !== "updated_at" && <li key={i}>{key}: {recipe.nutrition[key as keyof NutritionKeys]}</li>);
 
   return (
     <>
     <main className={styles.page}>
-      <h1>{id} {recipe.name}</h1>
-      <img src={recipe.thumbnail_url} alt={recipe.name} />
-      <p>Category</p>
-      <p>{recipe.description}</p>
-      <p>Instructions:</p>
-      <ul>instructionList</ul>
-      <p>Nutrition:</p>
-      <ul>{nutritionList}</ul>
+      <h1>{recipe.name}</h1>
+      <div className={styles.header}>
+        <img src={recipe.thumbnail_url} alt={recipe.name} />
+        <div className={styles.rightHeader}>
+          <p className={styles.description}>{recipe.description}</p>
+          <div className={styles.categories}>
+            {tags}
+          </div>
+        </div>
+      </div>
+      <div className={styles.list}>
+        <p>Instructions:</p>
+        <ol>{instructionList}</ol>
+      </div>
+      <div className={styles.list}>
+        <p>Nutrition:</p>
+        <ul>{nutritionList}</ul>
+      </div>
     </main>
     </>
   )
