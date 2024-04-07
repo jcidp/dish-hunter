@@ -8,7 +8,7 @@ const cleanParams = (params: string) => params.replace(/%20/g, " ");
 
 const Landing = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { recipes, error, loading } = useRecipes(0, searchParams.get("ingredients"), true);
+  const { recipes, error, loading } = useRecipes(0, searchParams.get("ingredients") ?? "", true);
   const [searchValue, setSearchValue] = useState(cleanParams(searchParams.get("ingredients") ?? ""));
 
   if (error) {

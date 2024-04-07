@@ -9,13 +9,13 @@ const options = {
 	}
 };
 
-const useRecipes = (from: number = 0, ingredients:string|null = null, realData: boolean = false) => {
+const useRecipes = (from: number = 0, ingredients:string = "", realData: boolean = false) => {
   const [recipes, setRecipes] = useState(fakeRecipes);
   const [error, setError] = useState<Error|null>(null);
   const [loading, setLoading] = useState(true);
   
   useEffect(() => {
-    const url = `https://tasty.p.rapidapi.com/recipes/list?from=${from}&size=20&q=${ingredients}`;
+    const url = `https://tasty.p.rapidapi.com/recipes/list?from=${from}&size=20${ingredients ? "&q=" + ingredients : ""}`;
     const getRecipes = async () => {
       if (!realData) {
         console.log(`FakeFetch URL: ${url}`)

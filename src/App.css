@@ -12,6 +12,6 @@ nav {
 }
 
 main {
-  width: min(1200px, 100% - 4rem);
+  max-width: 1600px;
   margin-inline: auto;
 }
